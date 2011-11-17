@@ -1,0 +1,1 @@
+<a href="{router page='index'}">{$aLang.blogs}</a>{if $aReq}, {$aReq.q|escape:'html'}{/if}
