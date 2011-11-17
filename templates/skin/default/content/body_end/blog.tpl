@@ -1,0 +1,2 @@
+{if !$oBlog && $oTopic && count($aTopics)==0}{assign var="oBlog" value=$oTopic->getBlog()}{/if}
+<a href="{router page='index'}">{$aLang.blogs}</a>{if $oBlog}, {$oBlog->getTitle()|escape:'html'}{/if}{if $oTopic && count($aTopics)==0}, {$oTopic->getTitle()|escape:'html'}{/if}
