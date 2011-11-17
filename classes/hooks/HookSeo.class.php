@@ -59,4 +59,8 @@ class PluginSeo_HookSeo extends Hook {
         }
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ef5dc3b44e82476d5c44c9c39608a5f06cef4eaf
