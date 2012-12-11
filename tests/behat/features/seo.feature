@@ -56,7 +56,7 @@ Feature: ls-plugin_seo-plugins
       | keywords    | site, google, internet, sony,flash,gadget, gadget |
 
   Scenario: See meta on profile page
-    Given I am on "/profile/golfer/created/topics/"
+    Given I am on "/profile/user-golfer/created/topics/"
     Then the response status code should be 200
     Then the response meta have:
       | name        | value  |
