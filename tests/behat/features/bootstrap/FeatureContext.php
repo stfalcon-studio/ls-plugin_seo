@@ -16,8 +16,18 @@ require_once("tests/behat/features/bootstrap/BaseFeatureContext.php");
 /**
  * LiveStreet custom feature context
  */
-class FeatureContext extends BaseFeatureContext
+class FeatureContext extends MinkContext
 {
+    public function __construct(array $parameters)
+    {
+        $this->parameters = $parameters;
+        $this->useContext('base', new BaseFeatureContext($parameters));
+    }
+
+    public function getEngine() {
+        return $this->getSubcontext('base')->getEngine();
+    }
+
     /**
      * @Then /^the response meta have:$/
      */
