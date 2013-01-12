@@ -7,13 +7,13 @@
         <lang name="default">Web studio stfalcon.com</lang>
     </author>
     <homepage>http://stfalcon.com</homepage>
-    <version>0.2.0</version>
+    <version>0.3.0</version>
     <requires>
-        <livestreet>0.4.2</livestreet>
+        <livestreet>1.0</livestreet>
     </requires>
     <description>
         <lang name="default">Optimization site for search engines</lang>
-        <lang name="russian">Оптимизация сайта для поисковых систем</lang>
-        <lang name="ukrainian">Оптимізація сайту для пошукових систем</lang>
+        <lang name="russian">Автоматическая генерация мета тегов keywords и description в зависимости от контента страницы. Это положительно влияет на индексацию сайта поисковыми системами и ранжирование их выдачи</lang>
+        <lang name="ukrainian">Автоматична генерація мета тегів keywords і description залежно від контенту сторінки. Це позитивно впливає на індексацію сайту пошуковими системами і ранжування їх видачі</lang>
     </description>
 </plugin>
