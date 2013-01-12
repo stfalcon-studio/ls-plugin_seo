@@ -7,9 +7,9 @@
         <lang name="default">Web studio stfalcon.com</lang>
     </author>
     <homepage>http://stfalcon.com</homepage>
-    <version>0.2.0</version>
+    <version>0.3.0</version>
     <requires>
-        <livestreet>0.4.2</livestreet>
+        <livestreet>1.0</livestreet>
     </requires>
     <description>
         <lang name="default">Optimization site for search engines</lang>
